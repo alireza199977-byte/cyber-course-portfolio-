@@ -15,7 +15,8 @@ This is my portfolio for the Kyberturvallisuus 15 ECVET course at [your institut
 
 ## About me
 
-[Your name or handle, one sentence about who you are]
+Alireza — final-year tieto- ja viestintätekniikka student.
+
 
 ## License
 
