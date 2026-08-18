@@ -1,24 +1,23 @@
-**1. Find the login submission. What username and password were sent? Paste the line from the stream where you found them.**
+**1. Find the login submission. What username and password were sent? Paste the line from the stream.**
 
 POST /login HTTP/1.1
-username=testuser&password=SuperSecret123
----
-**2 . The login form was submitted using which HTTP method — GET or POST? (Look at the packet that carries the credentials.)**
+username=anna.virtanen&password=Summer2026!&remember=on
 
-POST
-The credentials are inside the HTTP body, not the URL.
----
-**3. After a successful login, the server sends back a Set-Cookie header. What is the value of the SESSIONID cookie? Why might an attacker who sees this cookie be dangerous, even without the password?**
+**2. The login form was submitted using which HTTP method — GET or POST?**
+POST  
+The credentials appear in the HTTP request body, which means the form used POST.
 
-Set-Cookie: SESSIONID=abc123xyz789; Path=/; HttpOnly
+**3. After a successful login, what is the value of the SESSIONID cookie? Why might an attacker who sees this cookie be dangerous?**
+
+Set-Cookie: SESSIONID=a3f9c2e7b81d4f60a5e2c9d10f4b7e88; Path=/; HttpOnly
 Why dangerous?  
-If an attacker steals this cookie, they can hijack the session and log in as the user without needing the password.
----
-**4. The dashboard page (the final server response) reveals personal details about the user. List two pieces of sensitive information visible there.**
+If an attacker obtains this cookie, they can hijack the user’s session and access the account without knowing the password.
 
-Full name of the user
-Email address / employee ID / personal profile details
----
+**4. The dashboard page reveals personal details. List two pieces of sensitive information visible there.**
+Full name: Anna Virtanen
+
+Email: anna.virtanen@pohjola-logistics.local
+
 **5. Apply the filter tls. Can you find the username and password anywhere in this capture? Why or why not?**  
 
 **No**
