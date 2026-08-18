@@ -51,3 +51,7 @@ HTTPS protects the content of your communication by encrypting it
 But IP addresses, timing, packet sizes, and the hostname (via SNI) are still visible 
 
 ---
+
+
+**What surprised me most
+The biggest surprise was how HTTP exposes everything — even the password — in readable text, while HTTPS hides all content in encrypted data. It was also surprising that the server name (SNI) is still visible in TLS.**
