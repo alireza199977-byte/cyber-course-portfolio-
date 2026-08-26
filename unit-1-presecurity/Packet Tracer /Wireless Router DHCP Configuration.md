@@ -1,4 +1,4 @@
-In this lab, I connected three PCs (PC0, PC1, and PC2) to the wireless router using straight-through cables.
+I connected three PCs (PC0, PC1, and PC2) to the wireless router using straight-through cables.
 
 First, I checked the default gateway, which was:
 
