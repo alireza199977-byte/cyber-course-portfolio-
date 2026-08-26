@@ -8,5 +8,6 @@ After that, I tried to connect to the router using Telnet, but the connection wa
 Then I used SSH with ssh -l admin 64.100.1.1 and entered the password class. The connection worked, and I was able to access the HQ router.
  
 The final prompt was HQ>, which showed that I was successfully connected to the router using SSH.
-<img width="780" height="734" alt="image" src="https://github.com/user-attachments/assets/f6c0fb84-dd37-40e4-9060-c2606cabfd61" />
+<img width="741" height="739" alt="image" src="https://github.com/user-attachments/assets/547e5fc6-5b39-44c2-bd22-2b166d5e6d9a" />
+
 
