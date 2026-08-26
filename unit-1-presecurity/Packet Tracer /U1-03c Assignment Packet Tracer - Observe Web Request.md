@@ -1,7 +1,7 @@
 
 I checked how a PC communicates with a web server in Packet Tracer. First, I used ping ciscolearn.web.com to test the connection and see the server's IP address.
 
-  <img width="490" height="662" alt="image" src="https://github.com/user-attachments/assets/c6b3cf94-37c5-42b9-802d-ac83ec025a22" />
+<img width="549" height="493" alt="image" src="https://github.com/user-attachments/assets/35d07cb5-99be-43eb-bbec-2a739c78a121" />
 
 
 Then, I opened ciscolearn.web.com in the web browser and checked the index.html file on the server to see the HTML code of the web page.
