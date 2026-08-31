@@ -1,5 +1,64 @@
 # Network Profile — [TNT]
 
+Q1
+IPv4: 10.206.0.xxx  
+MAC: C4-03-A8-2B-7F-xx
+
+Q2
+A private IP works only inside local networks, while a public IP is reachable on the internet; routers use private IPs to protect internal devices.
+
+Q3
+IP = Layer 3 and can change.
+MAC = Layer 2 and mostly fixed to hardware.
+
+Q4
+/16 has 65,536 total and 65,534 usable addresses.
+Network: 10.206.0.0  
+Broadcast: 10.206.255.255
+
+Q5
+Default gateway: 10.206.0.1  
+Yes, same subnet — same 10.206.x.x range under /16.
+
+Q6
+Gateway ping: 25 ms  
+1.1.1.1 is slower because it goes across the internet, not just the local network.
+
+Q7
+DNS allows using domain names instead of IP addresses.
+
+8
+DNS servers: 62.241.198.xxx (ISP resolvers)
+
+Q9
+example.com → 93.184.216.34  
+Large sites may have multiple IPs due to load balancing/CDNs.
+
+Q10
+DNS queries reveal which websites you visit, even if HTTPS hides the content.
+
+Q11
+Hops: Unreachable (ICMP blocked)  
+First hop: 10.206.0.1
+
+Q12
+* * * means the router blocks ICMP responses, not that the connection is broken.
+
+Q13
+Most ports listen on localhost, not exposed.
+Network‑facing ports include: 135, 139, 445, and Windows RPC ports.
+
+Q14
+Examples:
+
+445 → SMB file sharing
+22 → SSH
+Listening on 0.0.0.0 exposes the port to the network; localhost is safer.
+
+Q15
+My machine exposes more network‑facing services than expected, especially legacy ones like port 139.
+
+
 ## Identity
 - IPv4 address: 10.206.0.xxx
 - Subnet mask / CIDR: 255.255.0.0 (/16)
